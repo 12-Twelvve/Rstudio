@@ -1,7 +1,7 @@
 # remove all existing variables in the working environment
 rm(list = ls())
 # reading data
-data<- read.csv('STAT100_A2_data_IshantNeupaneNeupane.csv')
+data<- read.csv('test.csv')
 attach(data)
 summary(data)
 data$Sample.Number <- factor(data$Sample.Number)
